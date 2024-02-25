@@ -1,0 +1,47 @@
+.page-laser-to-text {
+  position: relative;
+  overflow: hidden;
+}
+.page-laser-to-text canvas {
+  display: block;
+}
+.page-laser-to-text input {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  display: block;
+  outline: none;
+  background-color: rgba(38, 50, 56, 0.2);
+  color: #ffffff;
+  border: none;
+  width: 50%;
+  min-width: 500px;
+  max-width: 100%;
+  margin: auto;
+  height: 60px;
+  line-height: 60px;
+  font-size: 40px;
+  padding: 0 20px;
+}
+
+
+#input {
+  
+  font-size: 15px; /* Tamaño de la fuente */
+  border: 2px solid #ccc; /* Borde */
+  border-radius: 5px; /* Radio de borde */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  width: 300px; /* Ancho del input */
+  outline: none; /* Eliminar contorno al hacer clic */
+}
+
+/* Estilos para el placeholder */
+#input::placeholder {
+  color: #999; /* Color del texto del placeholder */
+}
+
+/* Estilos para cuando el input está enfocado */
+#input:focus {
+  border-color: #1b1d1f; /* Cambiar color del borde al enfocar */
+}
